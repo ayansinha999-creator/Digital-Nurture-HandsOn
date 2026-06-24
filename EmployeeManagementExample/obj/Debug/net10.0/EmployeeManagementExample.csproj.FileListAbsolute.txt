@@ -1,0 +1,14 @@
+C:\Users\ayans\EmployeeManagementExample\bin\Debug\net10.0\EmployeeManagementExample.exe
+C:\Users\ayans\EmployeeManagementExample\bin\Debug\net10.0\EmployeeManagementExample.deps.json
+C:\Users\ayans\EmployeeManagementExample\bin\Debug\net10.0\EmployeeManagementExample.runtimeconfig.json
+C:\Users\ayans\EmployeeManagementExample\bin\Debug\net10.0\EmployeeManagementExample.dll
+C:\Users\ayans\EmployeeManagementExample\bin\Debug\net10.0\EmployeeManagementExample.pdb
+C:\Users\ayans\EmployeeManagementExample\obj\Debug\net10.0\EmployeeManagementExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayans\EmployeeManagementExample\obj\Debug\net10.0\EmployeeManagementExample.AssemblyInfoInputs.cache
+C:\Users\ayans\EmployeeManagementExample\obj\Debug\net10.0\EmployeeManagementExample.AssemblyInfo.cs
+C:\Users\ayans\EmployeeManagementExample\obj\Debug\net10.0\EmployeeManagementExample.csproj.CoreCompileInputs.cache
+C:\Users\ayans\EmployeeManagementExample\obj\Debug\net10.0\EmployeeManagementExample.dll
+C:\Users\ayans\EmployeeManagementExample\obj\Debug\net10.0\refint\EmployeeManagementExample.dll
+C:\Users\ayans\EmployeeManagementExample\obj\Debug\net10.0\EmployeeManagementExample.pdb
+C:\Users\ayans\EmployeeManagementExample\obj\Debug\net10.0\EmployeeManagementExample.genruntimeconfig.cache
+C:\Users\ayans\EmployeeManagementExample\obj\Debug\net10.0\ref\EmployeeManagementExample.dll

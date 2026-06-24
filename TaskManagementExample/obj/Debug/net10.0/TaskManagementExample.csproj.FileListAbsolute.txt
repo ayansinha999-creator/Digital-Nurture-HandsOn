@@ -1,0 +1,14 @@
+C:\Users\ayans\TaskManagementExample\bin\Debug\net10.0\TaskManagementExample.exe
+C:\Users\ayans\TaskManagementExample\bin\Debug\net10.0\TaskManagementExample.deps.json
+C:\Users\ayans\TaskManagementExample\bin\Debug\net10.0\TaskManagementExample.runtimeconfig.json
+C:\Users\ayans\TaskManagementExample\bin\Debug\net10.0\TaskManagementExample.dll
+C:\Users\ayans\TaskManagementExample\bin\Debug\net10.0\TaskManagementExample.pdb
+C:\Users\ayans\TaskManagementExample\obj\Debug\net10.0\TaskManagementExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayans\TaskManagementExample\obj\Debug\net10.0\TaskManagementExample.AssemblyInfoInputs.cache
+C:\Users\ayans\TaskManagementExample\obj\Debug\net10.0\TaskManagementExample.AssemblyInfo.cs
+C:\Users\ayans\TaskManagementExample\obj\Debug\net10.0\TaskManagementExample.csproj.CoreCompileInputs.cache
+C:\Users\ayans\TaskManagementExample\obj\Debug\net10.0\TaskManagementExample.dll
+C:\Users\ayans\TaskManagementExample\obj\Debug\net10.0\refint\TaskManagementExample.dll
+C:\Users\ayans\TaskManagementExample\obj\Debug\net10.0\TaskManagementExample.pdb
+C:\Users\ayans\TaskManagementExample\obj\Debug\net10.0\TaskManagementExample.genruntimeconfig.cache
+C:\Users\ayans\TaskManagementExample\obj\Debug\net10.0\ref\TaskManagementExample.dll

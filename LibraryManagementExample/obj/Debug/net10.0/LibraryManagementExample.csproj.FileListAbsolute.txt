@@ -1,0 +1,14 @@
+C:\Users\ayans\LibraryManagementExample\bin\Debug\net10.0\LibraryManagementExample.exe
+C:\Users\ayans\LibraryManagementExample\bin\Debug\net10.0\LibraryManagementExample.deps.json
+C:\Users\ayans\LibraryManagementExample\bin\Debug\net10.0\LibraryManagementExample.runtimeconfig.json
+C:\Users\ayans\LibraryManagementExample\bin\Debug\net10.0\LibraryManagementExample.dll
+C:\Users\ayans\LibraryManagementExample\bin\Debug\net10.0\LibraryManagementExample.pdb
+C:\Users\ayans\LibraryManagementExample\obj\Debug\net10.0\LibraryManagementExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayans\LibraryManagementExample\obj\Debug\net10.0\LibraryManagementExample.AssemblyInfoInputs.cache
+C:\Users\ayans\LibraryManagementExample\obj\Debug\net10.0\LibraryManagementExample.AssemblyInfo.cs
+C:\Users\ayans\LibraryManagementExample\obj\Debug\net10.0\LibraryManagementExample.csproj.CoreCompileInputs.cache
+C:\Users\ayans\LibraryManagementExample\obj\Debug\net10.0\LibraryManagementExample.dll
+C:\Users\ayans\LibraryManagementExample\obj\Debug\net10.0\refint\LibraryManagementExample.dll
+C:\Users\ayans\LibraryManagementExample\obj\Debug\net10.0\LibraryManagementExample.pdb
+C:\Users\ayans\LibraryManagementExample\obj\Debug\net10.0\LibraryManagementExample.genruntimeconfig.cache
+C:\Users\ayans\LibraryManagementExample\obj\Debug\net10.0\ref\LibraryManagementExample.dll
