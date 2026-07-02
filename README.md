@@ -1,202 +1,189 @@
-\# Digital-Nurture-HandsOn
+# Digital-Nurture-HandsOn
 
+This repository contains my hands-on solutions and practice work for the **Cognizant Digital Nurture 5.0 – DotNet FSE Angular** learning track.
 
+The repository is organized module-wise and includes implementation examples, coding exercises, and practice programs completed as part of the Deep Skilling journey.
 
-This repository contains my hands-on solutions and practice work for the \*\*Cognizant Digital Nurture 5.0 – DotNet FSE Angular\*\* learning track.
+---
 
+# Repository Structure
 
+## Module 1 – Design Patterns
 
-The repository is organized module-wise and includes implementation examples, coding exercises, and practice programs completed as part of the deep skilling journey.
+- **SingletonPatternExample**
+- **FactoryMethodPatternExample**
 
+## Module 2 – Data Structures and Algorithms
 
+- **InventoryManagementExample**
+- **EcommerceSearchExample**
+- **SortingCustomerOrdersExample**
+- **EmployeeManagementExample**
+- **TaskManagementExample**
+- **LibraryManagementExample**
+- **FinancialForecastingExample**
 
-\---
+## Module 3 – Advanced SQL
 
+- **Exercise-1** – Ranking Window Functions
+- **Exercise-2** – GROUPING SETS, ROLLUP, CUBE
+- **Exercise-3** – Common Table Expressions (CTE)
+- **Exercise-4** – MERGE Statement
+- **Exercise-5** – PIVOT
+- **Exercise-6** – UNPIVOT
+- **Exercise-7** – Stored Procedures
+- **Exercise-8** – Transactions
 
+---
 
-\## Repository Structure
+# Module Details
 
-
-
-\### Module 1 – Design Patterns
-
-\- \*\*SingletonPatternExample\*\*
-
-\- \*\*FactoryMethodPatternExample\*\*
-
-
-
-\### Module 2 – Data Structures and Algorithms
-
-\- \*\*InventoryManagementExample\*\*
-
-\- \*\*EcommerceSearchExample\*\*
-
-\- \*\*SortingCustomerOrdersExample\*\*
-
-\- \*\*EmployeeManagementExample\*\*
-
-\- \*\*TaskManagementExample\*\*
-
-\- \*\*LibraryManagementExample\*\*
-
-\- \*\*FinancialForecastingExample\*\*
-
-
-
-\---
-
-
-
-\## Module Details
-
-
-
-\### Module 1 – Design Patterns
+## Module 1 – Design Patterns
 
 This module focuses on understanding and implementing common design patterns and software design principles.
 
+### Projects
 
+### 1. SingletonPatternExample
 
-\#### Projects
+Demonstrates the Singleton Design Pattern where only one instance of a class is created and shared globally.
 
-1\. \*\*SingletonPatternExample\*\*  
+### 2. FactoryMethodPatternExample
 
-&#x20;  Demonstrates the Singleton Design Pattern where only one instance of a class is created and shared globally.
+Demonstrates the Factory Method Pattern for object creation without exposing instantiation logic directly.
 
+---
 
-
-2\. \*\*FactoryMethodPatternExample\*\*  
-
-&#x20;  Demonstrates the Factory Method Pattern for object creation without exposing instantiation logic directly.
-
-
-
-\---
-
-
-
-\### Module 2 – Data Structures and Algorithms
+## Module 2 – Data Structures and Algorithms
 
 This module focuses on implementing core data structure and algorithm concepts using practical examples.
 
+### Projects
 
+### 1. InventoryManagementExample
 
-\#### Projects
+Product inventory management using collections with add, update, delete, and display operations.
 
-1\. \*\*InventoryManagementExample\*\*  
+### 2. EcommerceSearchExample
 
-&#x20;  Product inventory management using collections with add, update, delete, and display operations.
+Implementation of **Linear Search** and **Binary Search** for product lookup.
 
+### 3. SortingCustomerOrdersExample
 
+Sorting customer orders using **Bubble Sort** and **Quick Sort** based on total order price.
 
-2\. \*\*EcommerceSearchExample\*\*  
+### 4. EmployeeManagementExample
 
-&#x20;  Implementation of \*\*Linear Search\*\* and \*\*Binary Search\*\* for product lookup.
+Employee record management using arrays with operations like add, search, delete, and display.
 
+### 5. TaskManagementExample
 
+Task management using a **Singly Linked List** with insertion, traversal, search, and deletion.
 
-3\. \*\*SortingCustomerOrdersExample\*\*  
+### 6. LibraryManagementExample
 
-&#x20;  Sorting customer orders using \*\*Bubble Sort\*\* and \*\*Quick Sort\*\* based on total order price.
+Searching books by title using **Linear Search** and **Binary Search**.
 
+### 7. FinancialForecastingExample
 
+Recursive approach for financial forecasting and future value prediction.
 
-4\. \*\*EmployeeManagementExample\*\*  
+---
 
-&#x20;  Employee record management using arrays with operations like add, search, delete, and display.
+## Module 3 – Advanced SQL
 
+This module focuses on advanced SQL concepts including window functions, grouping operations, common table expressions, merge operations, pivoting data, stored procedures, and transaction management.
 
+### Exercises
 
-5\. \*\*TaskManagementExample\*\*  
+### 1. Ranking Window Functions
 
-&#x20;  Task management using a \*\*Singly Linked List\*\* with insertion, traversal, search, and deletion.
+- Implemented **ROW_NUMBER()**
+- Implemented **RANK()**
+- Implemented **DENSE_RANK()**
 
+### 2. GROUPING SETS, ROLLUP and CUBE
 
+- Performed advanced aggregation using GROUPING SETS
+- Implemented ROLLUP
+- Implemented CUBE
 
-6\. \*\*LibraryManagementExample\*\*  
+### 3. Common Table Expressions (CTE)
 
-&#x20;  Searching books by title using \*\*Linear Search\*\* and \*\*Binary Search\*\*.
+- Created and executed Common Table Expressions to simplify SQL queries.
 
+### 4. MERGE Statement
 
+- Used the MERGE statement to perform INSERT and UPDATE operations efficiently.
 
-7\. \*\*FinancialForecastingExample\*\*  
+### 5. PIVOT
 
-&#x20;  Recursive approach for financial forecasting and future value prediction.
+- Converted row data into column format using the PIVOT operator.
 
+### 6. UNPIVOT
 
+- Converted column data back into row format using the UNPIVOT operator.
 
-\---
+### 7. Stored Procedures
 
+- Created and executed PL/SQL Stored Procedures.
 
+### 8. Transactions
 
-\## Technologies Used
+- Demonstrated transaction management using:
+  - COMMIT
+  - ROLLBACK
+  - SAVEPOINT
 
-\- \*\*C#\*\*
+---
 
-\- \*\*.NET\*\*
+# Technologies Used
 
-\- \*\*Object-Oriented Programming\*\*
+- **C#**
+- **.NET**
+- **Object-Oriented Programming**
+- **Data Structures and Algorithms**
+- **SQL**
+- **Oracle Database 11g XE**
+- **Oracle SQL Developer**
+- **Git**
+- **GitHub**
 
-\- \*\*Data Structures and Algorithms\*\*
+---
 
-\- \*\*Git \& GitHub\*\*
-
-
-
-\---
-
-
-
-\## Purpose of this Repository
+# Purpose of this Repository
 
 This repository is maintained to:
 
-\- Track my progress in the Cognizant Digital Nurture program
+- Track my progress in the Cognizant Digital Nurture 5.0 program.
+- Organize module-wise hands-on exercises.
+- Practice problem-solving and implementation in C# and SQL.
+- Maintain a structured record of learning and project work.
 
-\- Organize module-wise hands-on exercises
+---
 
-\- Practice problem-solving and implementation in C#
+# Status
 
-\- Maintain a structured record of learning and project work
+## Completed Modules
 
+- ✅ Module 1 – Design Patterns
+- ✅ Module 2 – Data Structures and Algorithms
+- ✅ Module 3 – Advanced SQL
 
+## Upcoming Modules
 
-\---
+- ⏳ Module 4 – NUnit and Moq
+- ⏳ Module 5 – Entity Framework Core
+- ⏳ Module 6 – ASP.NET Core Web API
+- ⏳ Module 7 – Microservices
+- ⏳ Module 8 – Angular
 
+---
 
+# Author
 
-\## Status
+**Ayan Sinha**
 
-\### Completed Modules
+B.Tech – Computer Science and Engineering (Data Science)
 
-\- Module 1 – Design Patterns
-
-\- Module 2 – Data Structures and Algorithms
-
-
-
-\### Upcoming Modules
-
-\- Module 3 – Advanced SQL Using SQL Server
-
-\- Module 4 – NUnit and Moq
-
-\- Module 5 – Entity Framework Core
-
-\- Module 6 – ASP.NET Core Web API
-
-\- Module 7 – Microservices
-
-\- Module 8 – Angular
-
-
-
-\---
-
-
-
-\## Author
-
-\*\*Ayan Sinha\*\*
-
+Cognizant Digital Nurture 5.0 – DotNet FSE Angular
