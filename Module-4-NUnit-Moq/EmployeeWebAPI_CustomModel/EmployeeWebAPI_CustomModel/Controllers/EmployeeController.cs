@@ -1,12 +1,13 @@
 ﻿using EmployeeWebAPI_CustomModel.Filters;
 using Microsoft.AspNetCore.Mvc;
 using EmployeeWebAPI_CustomModel.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EmployeeWebAPI_CustomModel.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [CustomAuthFilter]
+    [Authorize]
     public class EmployeeController : ControllerBase
     {
         private static List<Employee> GetStandardEmployeeList()
