@@ -1,182 +1,156 @@
 # Digital-Nurture-HandsOn
 
-This repository contains my hands-on solutions and practice work for the **Cognizant Digital Nurture 5.0 – DotNet FSE Angular** learning track.
+This repository contains my hands-on solutions, coding exercises, and projects completed as part of the **Cognizant Digital Nurture 5.0 – DotNet Full Stack Engineer (Angular)** learning program.
 
-The repository is organized module-wise and includes implementation examples, coding exercises, and practice programs completed as part of the Deep Skilling journey.
+The repository is organized **week-wise**, following the official Deep Skilling curriculum, and demonstrates practical implementation of C#, .NET, SQL, ASP.NET Core, Entity Framework Core, testing frameworks, and distributed messaging concepts.
 
 ---
 
 # Repository Structure
 
-## Module 1 – Design Patterns
+## Week 1 – Design Patterns, Data Structures & Advanced SQL
 
-- **SingletonPatternExample**
-- **FactoryMethodPatternExample**
+### Module 1 – Design Patterns
 
-## Module 2 – Data Structures and Algorithms
+- SingletonPatternExample
+- FactoryMethodPatternExample
 
-- **InventoryManagementExample**
-- **EcommerceSearchExample**
-- **SortingCustomerOrdersExample**
-- **EmployeeManagementExample**
-- **TaskManagementExample**
-- **LibraryManagementExample**
-- **FinancialForecastingExample**
+### Module 2 – Data Structures & Algorithms
 
-## Module 3 – Advanced SQL
+- InventoryManagementExample
+- EcommerceSearchExample
+- SortingCustomerOrdersExample
+- EmployeeManagementExample
+- TaskManagementExample
+- LibraryManagementExample
+- FinancialForecastingExample
 
-- **Exercise-1** – Ranking Window Functions
-- **Exercise-2** – GROUPING SETS, ROLLUP, CUBE
-- **Exercise-3** – Common Table Expressions (CTE)
-- **Exercise-4** – MERGE Statement
-- **Exercise-5** – PIVOT
-- **Exercise-6** – UNPIVOT
-- **Exercise-7** – Stored Procedures
-- **Exercise-8** – Transactions
+### Module 3 – Advanced SQL
 
----
-
-# Module Details
-
-## Module 1 – Design Patterns
-
-This module focuses on understanding and implementing common design patterns and software design principles.
-
-### Projects
-
-### 1. SingletonPatternExample
-
-Demonstrates the Singleton Design Pattern where only one instance of a class is created and shared globally.
-
-### 2. FactoryMethodPatternExample
-
-Demonstrates the Factory Method Pattern for object creation without exposing instantiation logic directly.
+- Ranking Window Functions
+- GROUPING SETS
+- ROLLUP
+- CUBE
+- Common Table Expressions (CTE)
+- MERGE Statement
+- PIVOT
+- UNPIVOT
+- Stored Procedures
+- Transactions
 
 ---
 
-## Module 2 – Data Structures and Algorithms
+## Week 2 – Unit Testing & Entity Framework Core
 
-This module focuses on implementing core data structure and algorithm concepts using practical examples.
+### Module 4 – NUnit and Moq
 
-### Projects
+- NUnit Unit Testing
+- Assertions
+- Test Fixtures
+- Setup & TearDown
+- Mock Object Testing using Moq
 
-### 1. InventoryManagementExample
+### Module 5 – Entity Framework Core
 
-Product inventory management using collections with add, update, delete, and display operations.
-
-### 2. EcommerceSearchExample
-
-Implementation of **Linear Search** and **Binary Search** for product lookup.
-
-### 3. SortingCustomerOrdersExample
-
-Sorting customer orders using **Bubble Sort** and **Quick Sort** based on total order price.
-
-### 4. EmployeeManagementExample
-
-Employee record management using arrays with operations like add, search, delete, and display.
-
-### 5. TaskManagementExample
-
-Task management using a **Singly Linked List** with insertion, traversal, search, and deletion.
-
-### 6. LibraryManagementExample
-
-Searching books by title using **Linear Search** and **Binary Search**.
-
-### 7. FinancialForecastingExample
-
-Recursive approach for financial forecasting and future value prediction.
+- Code First Approach
+- DbContext
+- Entity Configuration
+- CRUD Operations
+- LINQ Queries
+- Data Annotations
 
 ---
 
-## Module 3 – Advanced SQL
+## Week 3 – ASP.NET Core Web API & Kafka
 
-This module focuses on advanced SQL concepts including window functions, grouping operations, common table expressions, merge operations, pivoting data, stored procedures, and transaction management.
+### Module 6 – ASP.NET Core Web API
 
-### Exercises
+- First Web API
+- Controllers & Routing
+- HTTP Verbs
+- Swagger Integration
+- Postman Testing
+- Employee Web API
+- Custom Models
+- Model Binding
+- CRUD Operations
+- Custom Authorization Filter
+- Custom Exception Filter
+- JWT Authentication
 
-### 1. Ranking Window Functions
+### Apache Kafka Integration
 
-- Implemented **ROW_NUMBER()**
-- Implemented **RANK()**
-- Implemented **DENSE_RANK()**
-
-### 2. GROUPING SETS, ROLLUP and CUBE
-
-- Performed advanced aggregation using GROUPING SETS
-- Implemented ROLLUP
-- Implemented CUBE
-
-### 3. Common Table Expressions (CTE)
-
-- Created and executed Common Table Expressions to simplify SQL queries.
-
-### 4. MERGE Statement
-
-- Used the MERGE statement to perform INSERT and UPDATE operations efficiently.
-
-### 5. PIVOT
-
-- Converted row data into column format using the PIVOT operator.
-
-### 6. UNPIVOT
-
-- Converted column data back into row format using the UNPIVOT operator.
-
-### 7. Stored Procedures
-
-- Created and executed PL/SQL Stored Procedures.
-
-### 8. Transactions
-
-- Demonstrated transaction management using:
-  - COMMIT
-  - ROLLBACK
-  - SAVEPOINT
+- Kafka Installation
+- ZooKeeper Configuration
+- Kafka Server
+- Topic Creation
+- Producer & Consumer
+- C# Kafka Chat Application
 
 ---
 
 # Technologies Used
 
-- **C#**
-- **.NET**
-- **Object-Oriented Programming**
-- **Data Structures and Algorithms**
-- **SQL**
-- **Oracle Database 11g XE**
-- **Oracle SQL Developer**
-- **Git**
-- **GitHub**
+- C#
+- .NET
+- ASP.NET Core Web API
+- Entity Framework Core
+- NUnit
+- Moq
+- Apache Kafka
+- JWT Authentication
+- Swagger (OpenAPI)
+- Object-Oriented Programming
+- Data Structures & Algorithms
+- SQL
+- Oracle Database 11g XE
+- Oracle SQL Developer
+- Git
+- GitHub
 
 ---
 
-# Purpose of this Repository
+# Purpose
 
 This repository is maintained to:
 
 - Track my progress in the Cognizant Digital Nurture 5.0 program.
-- Organize module-wise hands-on exercises.
-- Practice problem-solving and implementation in C# and SQL.
-- Maintain a structured record of learning and project work.
+- Maintain week-wise hands-on implementations.
+- Practice software engineering concepts through real coding exercises.
+- Build a structured portfolio of .NET Full Stack development.
 
 ---
 
-# Status
+# Learning Progress
 
-## Completed Modules
+## ✅ Week 1 Completed
 
-- ✅ Module 1 – Design Patterns
-- ✅ Module 2 – Data Structures and Algorithms
-- ✅ Module 3 – Advanced SQL
+- Design Patterns
+- Data Structures & Algorithms
+- Advanced SQL
 
-## Upcoming Modules
+## ✅ Week 2 Completed
 
-- ⏳ Module 4 – NUnit and Moq
-- ⏳ Module 5 – Entity Framework Core
-- ⏳ Module 6 – ASP.NET Core Web API
-- ⏳ Module 7 – Microservices
-- ⏳ Module 8 – Angular
+- NUnit
+- Moq
+- Entity Framework Core
+
+## ✅ Week 3 Completed
+
+- ASP.NET Core Web API
+- Swagger
+- JWT Authentication
+- Apache Kafka Integration
+
+## ⏳ Upcoming
+
+### Week 4
+
+- Microservices
+
+### Week 5
+
+- Angular
 
 ---
 
@@ -186,4 +160,4 @@ This repository is maintained to:
 
 B.Tech – Computer Science and Engineering (Data Science)
 
-Cognizant Digital Nurture 5.0 – DotNet FSE Angular
+Cognizant Digital Nurture 5.0 – DotNet Full Stack Engineer (Angular)
