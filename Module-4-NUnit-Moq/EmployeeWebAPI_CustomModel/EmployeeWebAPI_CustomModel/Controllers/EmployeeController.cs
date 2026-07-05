@@ -55,9 +55,10 @@ namespace EmployeeWebAPI_CustomModel.Controllers
 
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public ActionResult<List<Employee>> Get()
         {
-            return Ok(GetStandardEmployeeList());
+            throw new Exception("Sample Exception");
         }
 
         [HttpPost]
@@ -69,7 +70,28 @@ namespace EmployeeWebAPI_CustomModel.Controllers
         [HttpPut]
         public ActionResult<Employee> Put([FromBody] Employee employee)
         {
-            return Ok(employee);
+            if (employee.Id <= 0)
+            {
+                return BadRequest("Invalid employee id");
+            }
+
+            var employees = GetStandardEmployeeList();
+
+            var existingEmployee = employees.FirstOrDefault(e => e.Id == employee.Id);
+
+            if (existingEmployee == null)
+            {
+                return BadRequest("Invalid employee id");
+            }
+
+            existingEmployee.Name = employee.Name;
+            existingEmployee.Salary = employee.Salary;
+            existingEmployee.Permanent = employee.Permanent;
+            existingEmployee.Department = employee.Department;
+            existingEmployee.Skills = employee.Skills;
+            existingEmployee.DateOfBirth = employee.DateOfBirth;
+
+            return Ok(existingEmployee);
         }
     }
 }

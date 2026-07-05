@@ -7,6 +7,10 @@ namespace EmployeeWebAPI_CustomModel.Filters
     {
         public override void OnException(ExceptionContext context)
         {
+            System.IO.File.AppendAllText(
+                "ExceptionLog.txt",
+                context.Exception.ToString() + Environment.NewLine);
+
             context.Result = new ObjectResult("Internal Server Error")
             {
                 StatusCode = 500
