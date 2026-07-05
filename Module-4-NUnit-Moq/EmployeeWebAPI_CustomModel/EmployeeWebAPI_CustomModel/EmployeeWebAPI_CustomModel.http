@@ -1,0 +1,6 @@
+@EmployeeWebAPI_CustomModel_HostAddress = http://localhost:5103
+
+GET {{EmployeeWebAPI_CustomModel_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
