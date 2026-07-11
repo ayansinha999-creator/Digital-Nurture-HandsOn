@@ -7,7 +7,7 @@ namespace EmployeeWebAPI_CustomModel.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize]
+    [Authorize(Roles = "Admin")]
     public class EmployeeController : ControllerBase
     {
         private static List<Employee> GetStandardEmployeeList()

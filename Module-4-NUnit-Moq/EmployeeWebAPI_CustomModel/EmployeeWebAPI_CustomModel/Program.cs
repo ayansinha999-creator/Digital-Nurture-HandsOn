@@ -5,10 +5,6 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var securityKey = "mysuperdupersecretkey123456789012345";
-var symmetricSecurityKey = new SymmetricSecurityKey(
-    Encoding.UTF8.GetBytes(securityKey));
-
 builder.Services.AddControllers(options =>
 {
     options.Filters.Add<CustomExceptionFilter>();
@@ -27,9 +23,23 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
 
-            ValidIssuer = "mySystem",
-            ValidAudience = "myUsers",
-            IssuerSigningKey = symmetricSecurityKey
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!))
+        };
+
+        options.Events = new JwtBearerEvents
+        {
+            OnAuthenticationFailed = context =>
+            {
+                if (context.Exception is SecurityTokenExpiredException)
+                {
+                    context.Response.Headers.Append("Token-Expired", "true");
+                }
+
+                return Task.CompletedTask;
+            }
         };
     });
 
