@@ -1,0 +1,54 @@
+<h1>{{ portalName }}</h1>
+
+<p>
+  Manage your courses, enrollment and profile using this Angular application.
+</p>
+
+<hr>
+
+<button [disabled]="!isPortalActive" (click)="onEnrollClick()">
+  Enroll Now
+</button>
+
+<p>{{ message }}</p>
+
+<hr>
+
+<h3>Search Course</h3>
+
+<input
+type="text"
+placeholder="Enter course name"
+[(ngModel)]="searchTerm">
+
+<p>Searching for: {{ searchTerm }}</p>
+
+<hr>
+
+<app-course-list
+[courseName]="selectedCourse">
+</app-course-list>
+
+<hr>
+
+<app-course-summary></app-course-summary>
+
+<hr>
+
+<app-student-profile></app-student-profile>
+
+<hr>
+
+<app-reactive-enrollment-form></app-reactive-enrollment-form>
+
+<hr>
+
+<app-course-api></app-course-api>
+
+<hr>
+
+<h3>Portal Statistics</h3>
+
+<p>Courses Available: {{ coursesAvailable }}</p>
+<p>Enrolled: 3</p>
+<p>GPA: 3.8</p>

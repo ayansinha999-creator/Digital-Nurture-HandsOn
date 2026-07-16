@@ -1,0 +1,23 @@
+<h2>Users from API</h2>
+
+<table border="1" cellpadding="8">
+
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let user of users">
+      <td>{{ user.id }}</td>
+      <td>{{ user.name }}</td>
+      <td>{{ user.email }}</td>
+    </tr>
+  </tbody>
+
+</table>
+
+<p>Total Users: {{ users.length }}</p>

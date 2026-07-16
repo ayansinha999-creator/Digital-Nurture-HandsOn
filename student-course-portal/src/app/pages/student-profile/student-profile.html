@@ -1,0 +1,45 @@
+<h2>Student Registration</h2>
+
+<form #studentForm="ngForm" (ngSubmit)="onSubmit()">
+
+  <label>Name</label><br>
+  <input
+    type="text"
+    name="name"
+    [(ngModel)]="student.name"
+    required>
+  <br><br>
+
+  <label>Email</label><br>
+  <input
+    type="email"
+    name="email"
+    [(ngModel)]="student.email"
+    required>
+  <br><br>
+
+  <label>Course</label><br>
+  <input
+    type="text"
+    name="course"
+    [(ngModel)]="student.course"
+    required>
+  <br><br>
+
+  <button type="submit" [disabled]="studentForm.invalid">
+    Register
+  </button>
+
+</form>
+
+<hr>
+
+<div *ngIf="submitted">
+
+<h3>Registration Successful</h3>
+
+<p><b>Name:</b> {{student.name}}</p>
+<p><b>Email:</b> {{student.email}}</p>
+<p><b>Course:</b> {{student.course}}</p>
+
+</div>
