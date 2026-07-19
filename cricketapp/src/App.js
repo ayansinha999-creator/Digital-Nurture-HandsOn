@@ -1,0 +1,24 @@
+import React from "react";
+import ListofPlayers from "./ListofPlayers";
+import IndianPlayers from "./IndianPlayers";
+
+function App() {
+
+  const flag = true;
+
+  if (flag) {
+    return (
+      <div style={{ padding: "20px" }}>
+        <ListofPlayers />
+      </div>
+    );
+  } else {
+    return (
+      <div style={{ padding: "20px" }}>
+        <IndianPlayers />
+      </div>
+    );
+  }
+}
+
+export default App;
